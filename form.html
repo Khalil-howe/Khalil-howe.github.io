@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <!-- The hashtags are placeholders -->
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/challenge.html">Challenge</a></li>
+                <li><a href="#">Recipe</a></li>
+                <li><a href="form.html">Reservation</a></li>
+            </ul>
+        </nav>
+
+        <header class="intro">
+            <h1>Reserve Your Room</h1>
+            <h2>Our Reservation Policies</h2>
+        </header>
+
+        <section class="policies">
+            <ul>
+                <li>Check-in time after 3:00pm is available</li>
+                <li>Check-out time by 11:00am or charges are incurred</li>
+                <li>Breakfast and afternoon tea/snacks included in cost</li>
+                <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+                <li>50% deposit required at booking</li>
+                <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+            </ul>
+        </section>
+
+        <section class="reserve">
+            <form method="post" name="reservation" data-netlify="true">
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="John" required>
+                </div>
+
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Thomas" required>
+                </div>
+
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="johnthomas@mail.com" required>
+                </div>
+
+
+                <div>
+                    <label for="tel">Cell Phone:</label>
+                    <input type="tel"  name="tel"   id="tel" placeholder="(777)777-7777"   required> 
+                </div>
+
+
+                <div>
+                    <label for="inDate">Check-In Date:</label>
+                    <input type="date" name="inDate" id="inDate"    required>
+                </div>
+
+
+                <div>
+                    <label for="outDate">Check-Out Date:</label>
+                    <input type="date" name="outDate"   id="outDate"    required>
+                </div>
+
+
+                <div>
+                    <label for="guest">Number of Guest:</label>
+                    <input type="number" max="4" min="1" name="guest"  id="guest" placeholder="1-4" required>
+                </div>
+
+
+                <div>
+                    <label for="room">Room Type:</label>
+                    <select name="room" id="room" required>
+                        <option disabled hidden selected>Choose One</option>
+                        <option value="kingLux">King Beds</option>
+                        <option value="queenLux">Queen Beds</option>
+                        <option value="king">1 King Bed</option>
+                        <option value="queen">1 Queen Bed</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <div>Ocean View (additional cost)</div>
+                    <label for="view">Yes</label>
+                    <input type="radio" name="view" id="yes" value="yes"required>
+                    <label for="view">No</label>
+                    <input type="radio" name="view" id="no" value="no" required>
+                </div>
+
+                <div>
+                    <label for="notes">Notes/Request(s):</label>
+                    <textarea name="notes" id="notes"></textarea>
+                </div>
+
+                <div>
+                    <label for="upload">Vaccination Proof (not required):</label>
+                    <input type="file"  id="upload" name="upload">
+                </div>
+
+                <div>
+                    <label for="terms">Please check box to agree to terms and policies:</label>
+                    <input type="checkbox" id="terms"  name="terms" required>
+                </div>
+
+                <div>
+                    <label for="secret">Password:</label>
+                    <input type="password"  id="secret" name="secret">
+                </div>
+                
+                <div>
+                    <input type="button" value="Submit Form">
+                </div>
+                <div>
+                    <input type="button" value="Reset Form">
+                </div>
+                
+                <footer>
+                    <p>
+                        &copy;2022 Khalil'z Ocean View Hotel <br>
+                        West Palm Beach, FL
+                    </p>
+                </footer>
+            </form>
+        </section>        
+    </div>
+</body>
+</html>
