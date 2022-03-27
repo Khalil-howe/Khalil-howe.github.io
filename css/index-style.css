@@ -1,0 +1,100 @@
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+
+ul {
+    font-size: 150%;
+    list-style-image: linear-gradient(to left bottom, red, green, yellow);
+  }
+
+h1, 
+h2 {
+    color:rgb(228, 88, 38);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-decoration-line: underline;
+    letter-spacing: .15rem;
+    text-decoration-style: wavy; text-decoration-color: green;   
+    text-underline-offset:6px ;
+    text-align: center;
+}
+
+h1::before
+{
+    content:"\1f33b";
+}
+
+h1::after{
+    content:"\1f33b";
+}
+h2::before
+{
+    content:"\1f33b";
+}
+
+h2::after{
+    content:"\1f33b";
+}
+
+.intro::first-letter{
+    font-size:200%;
+    font-style: italic; 
+}
+
+.wrapper{
+    letter-spacing: .01rem;
+    text-transform: capitalize;
+    background-color: rgb(230, 213, 184);
+}
+
+
+nav a, 
+.assignments a,
+footer a { 
+    text-decoration: none;
+    color: black;
+}
+
+nav a:link,
+nav a:visited{
+    line-height:1.5;
+}
+
+
+nav a:hover, 
+nav a:active{
+    text-decoration: underline cornflowerblue 5px;
+    text-underline-offset: 6px; 
+
+}
+
+nav a:hover::before{
+    content: "\f33b";
+}
+
+.assignments a:link,
+.assignments a:visited{
+    line-height: 1.6;
+}
+
+.assignments a:hover,
+.assignments a:active{
+    text-decoration: underline cornflowerblue 4px;
+    text-underline-offset: 4px;
+}
+
+footer{
+    color: black;
+    font-weight: bold;
+}
+
+.footerstyle{
+    text-decoration: underline;
+} 
+.footerstyle a:hover,
+.footerstyle a:active{
+    text-decoration: cornflowerblue 6px;
+}
