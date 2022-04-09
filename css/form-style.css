@@ -11,10 +11,10 @@ html {
 body {
     background-color: rgb(141, 141, 170);
     background-image: url(/img/carolina-nichitin-KH_bfCm6cs4-unsplash\ \(1\).jpg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
 }
 
 #wrapper {
