@@ -1,0 +1,171 @@
+/*
+font-family: 'Beau Rivage', cursive;
+font-family: 'PT Serif', serif;
+*/
+
+
+html {
+    box-sizing : border-box;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    line-height:125%;
+    color: #50504f
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing : inherit ;
+}
+
+nav{
+    background-color:rgb(141, 141, 170) ;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+
+
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+nav a{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: larger;
+}
+
+nav a:visited{
+    background-color: aliceblue;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #bb1b47;
+}
+
+nav a:active{
+    color: yellow;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3{font-family: 'Beau Rivage', cursive;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3rem 1rem .5rem lightblue;
+}
+
+
+
+img{
+    float:left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    box-shadow: 2px 2px .5rem lightblue;
+    shape-outside: circle(35%);
+}
+
+header h2{
+    text-align: center;
+}
+
+
+.rate{
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after{
+    content:"\1f370";
+}
+
+.details, 
+.ingredients, 
+.instructions, 
+.nutrition{
+    width: 40%;
+    float: left;
+}
+
+.details,
+.instructions{
+    margin-right:16%;
+    margin-left: 2%;
+}
+
+blockquote{
+    clear: both;
+    text-align: center;
+    width: 300px;
+    height: 280px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    outline: solid purple;
+    outline-offset: 10px;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 1 rem;
+    margin: 40px auto;
+}
+
+footer{
+    color:red;
+    background-color: aliceblue;
+    padding: 2% 0;
+    margin: top 10px; 
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: hotpink;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer p{
+    clear: both;
+}
+
+
+.col1,
+.col2,
+.col3{
+    display: block;
+    float: left;
+    width: 32%;
+
+}
+
+blockquote small{
+    text-align: right;
+}
+
