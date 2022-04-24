@@ -117,21 +117,36 @@ footer{
     }
 }
 
-.picture{
+h2{
     animation: fadeTxt linear 6s 14s;
     animation-fill-mode: forwards;
 }
 
-footer{
-    line-height: 80%;
-    font-weight: 500;   
-    position: relative;
+nav{
+    position: fixed;
+    top: 0;
+    right: 100px;
+}
+    
+
+
+.footerstyle    {
+    position: absolute;
+    bottom: -auto;
+    left: 50%;
+    margin-top: auto;
 }
 
-small{
-    position: absolute;
-    bottom: -130px;
-    right: 0;
-    padding-bottom: 30px 0;
+.picture{
+    position: relative;
+    right: -700px;
+    border-radius: 5rem;
+    border: solid;
+    border-color: rgb(0, 175, 193);
+}
+.wrapper{
+    clear: both;
+    padding: 40px;
+    margin-top: 100px;
 }
 
