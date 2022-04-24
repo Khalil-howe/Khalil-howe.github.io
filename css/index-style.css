@@ -98,3 +98,26 @@ footer{
 .footerstyle a:active{
     text-decoration: cornflowerblue 6px;
 }
+
+.fade-text{
+    animation: fadeTxt linear 6s 14s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeTxt{ 
+    0%{
+        opacity: 0;
+    }
+    50%{
+        font-size: 2.75rem;
+    }
+    100%{
+        opacity:1;
+        font-size: 3.25rem;
+    }
+}
+
+.picture{
+    animation: fadeTxt linear 6s 14s;
+    animation-fill-mode: forwards;
+}
