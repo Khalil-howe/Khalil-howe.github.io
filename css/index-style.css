@@ -121,3 +121,17 @@ footer{
     animation: fadeTxt linear 6s 14s;
     animation-fill-mode: forwards;
 }
+
+footer{
+    line-height: 80%;
+    font-weight: 500;   
+    position: relative;
+}
+
+small{
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+    padding-bottom: 30px 0;
+}
+
