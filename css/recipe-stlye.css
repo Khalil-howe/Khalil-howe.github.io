@@ -169,7 +169,7 @@ blockquote small{
 }
 
 
-@media (min-width: 360px){
+@media (max-width: 360px){
     html{ 
         line-height: 1rem;
         font-size: 1.5rem;
@@ -226,7 +226,7 @@ blockquote small{
 }
 
 
-@media (min-width: 810px){
+@media (max-width: 810px){
     html{
         line-height: 2rem;
     }
