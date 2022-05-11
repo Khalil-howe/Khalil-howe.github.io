@@ -1,29 +1,60 @@
+:root{
+    --link-color: #FFD124;
+    --baby-headers: #00AFC1;
+    --text-theme:#E45826;
+    --foot-theme: #F32424;
+}
+
+h1{
+    background-image:linear-gradient(red,blue,green) ;
+    width: auto;
+    height: auto;
+    text-align:center;
+}
+
 html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
+    --ratio: 1.5;
+    --size-one: calc(1.2rem * var(--ratio));
+    --size-two: calc(var(--size-one) * var(--ratio));
+    --body-size: calc(1.2rem * var(--ratio));
+    
 }
+
 h1, h2{
-    color: #bb1b47;
+    color: #b0bb1b;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 h1{
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: .1rem;
-    font-size: 3.5rem;
+    font-size: var(--size-two);
 }
+
+
 h2{
-    font-size: 2rem;
+    color: var(--baby-headers);
+    font-size: var(--size-one);
 }
-h3{
-    font-size: 1.5rem;
+
+
+.site-intro {
+    font-size: var(--body-size);
 }
-.site-intro p{
-    font-size: 1.25rem;
+
+p{
+    color: var(--text-theme);
+}
+
+footer{
+    color: var(--foot-theme);
 }
 
 nav a{
-    color: blue;
+    color: var(--link-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
