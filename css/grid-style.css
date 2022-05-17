@@ -92,6 +92,7 @@ nav a:active{
 .div3 {
      grid-area: 1 / 6 / 2 / 8;
      background-color: cornflowerblue;
+     align-content:inherit;
 }
 
 .div4 {
